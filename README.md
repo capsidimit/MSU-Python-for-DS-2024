@@ -1,3 +1,4 @@
+[![Python package](https://github.com/DarthBarada/MSU-Python-for-DS-2024/actions/workflows/python-package.yml/badge.svg?branch=main)](https://github.com/DarthBarada/MSU-Python-for-DS-2024/actions/workflows/python-package.yml)
 # [Основы программирования и анализа данных на Python](https://intellect-foundation.ru/possibilities/studentu/interfaculty/#osnovyi-programmirovaniya-i-analiza-dannyix-na-python)
 Курс посвящен основам программирования на языке Python. Слушатели курса познакомятся с основными конструкциями языка Python и парадигмами программирования, а также с инструментами для анализа и визуализации данных.
 
