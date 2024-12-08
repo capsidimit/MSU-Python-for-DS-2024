@@ -40,7 +40,7 @@ import pytest
 
 Вам дана информация об ожидаемой по плану прибыли в первый день запуска проекта, об ожидаемой по плану прибыли в последний день запуска проекта и количестве дней работы проекта. Считаем, что понедельник — всегда первый день запуска проекта. При помощи np.linspace и присваиваний в срез, найдите прибыль в каждый день работы проекта с поправкой на фактическую продуктивность участников.
 
-# Формат вывода
+# Формат ввода
 В файле input.txt Вам даны три числа: прибыль (по плану) проекта в первый день (в понедельник), прибыль (по плану) проекта в последний день и количество дней.
 
 # Формат вывода
@@ -61,7 +61,11 @@ def management(start: float, stop: float, step: int):
 def main() -> None:
     import os
     __location__ = os.path.realpath(
-    os.path.join(os.getcwd(), os.path.dirname(__file__)))
+        os.path.join(
+            os.getcwd(),
+            os.path.dirname(__file__)
+        )
+    )
     
     with open(os.path.join(__location__,"input.txt"), mode="r") as fileIn:
         start, stop, step = map(float, fileIn.readlines())
